@@ -1,13 +1,13 @@
-package com.kavish_dev.demo;
+package com.kavish_dev.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class KafkaProducerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(KafkaProducerApplication.class, args);
 	}
 
 }

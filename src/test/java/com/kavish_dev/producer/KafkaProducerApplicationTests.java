@@ -1,10 +1,10 @@
-package com.kavish_dev.demo;
+package com.kavish_dev.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class KafkaProducerApplicationTests {
 
 	@Test
 	void contextLoads() {
